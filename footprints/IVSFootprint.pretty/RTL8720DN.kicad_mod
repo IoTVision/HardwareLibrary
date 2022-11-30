@@ -266,4 +266,9 @@
       )
     )
   )
+  (model "E:/IoT_Lab/PROJECT/hardware/ALTIUM/3D/BW16 v6.step"
+    (offset (xyz 0 0 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
