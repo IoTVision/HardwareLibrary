@@ -56,7 +56,7 @@
   (pad "" np_thru_hole circle (at 3.7465 0 90) (size 1.7526 1.7526) (drill 1.2446) (layers F&B.Cu *.Mask) (tstamp e1201d6a-661d-4972-a229-0731418e23da))
   (pad "1" smd roundrect (at -7.8994 0) (size 3.6068 2.5908) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0357a9ad-d112-4971-82a0-dbb9a1d66d75))
   (pad "2" smd roundrect (at 7.8994 0) (size 3.6068 2.5908) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9e8f95fc-fae0-456f-b728-49b303d2c2c0))
-  (model "${IOTVISION_3D_DIR}/BatteryHolder/CR1220_BatteryHolder/CR1220.STEP"
+  (model "${IOTVISION_3D}/BatteryHolder/CR1220_BatteryHolder/CR1220.STEP"
     (offset (xyz 8 -7.5 -1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

@@ -1,4 +1,4 @@
-(footprint "RS485_To_TTL" (version 20211014) (generator pcbnew)
+(footprint "RS485_To_TTL module" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
