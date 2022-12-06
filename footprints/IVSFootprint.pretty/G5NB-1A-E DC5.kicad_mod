@@ -45,7 +45,7 @@
   (pad "2" thru_hole circle (at -4.700001 -6.799999) (size 1.607998 1.607998) (drill 1.099998) (layers *.Cu *.Mask) (tstamp 453f01cb-6755-44be-83c8-9f9b381d2ef4))
   (pad "3" thru_hole circle (at -4.700001 0.199999) (size 1.607998 1.607998) (drill 1.099998) (layers *.Cu *.Mask) (tstamp 086b786d-c3bb-472a-b68f-479c3da7bda8))
   (pad "4" thru_hole circle (at 0 -18.299999) (size 1.607998 1.607998) (drill 1.099998) (layers *.Cu *.Mask) (tstamp a9391f03-f94d-4fc9-9907-cfeb30a5b86b))
-  (model "${IOTVISION_3D_DIR}/Relay/G5NB_1A_E.step"
+  (model "${IOTVISION_3D}/Relay/G5NB_1A_E.step"
     (offset (xyz -4.5 18.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

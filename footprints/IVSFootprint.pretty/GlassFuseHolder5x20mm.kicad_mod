@@ -30,7 +30,7 @@
   (fp_arc (start 12 -0.01) (mid 15.01 -3.02) (end 18.02 -0.01) (layer "F.CrtYd") (width 0.05) (tstamp 53c6295d-66b9-4720-8274-adbfae4cad86))
   (pad "1" thru_hole oval (at 0 0) (size 1.8 2.8) (drill oval 0.85 1.8) (layers *.Cu *.Mask) (tstamp 8071e14f-0412-4588-b848-d1124cf01dbd))
   (pad "2" thru_hole oval (at 22.75 0) (size 1.8 2.8) (drill oval 0.85 1.8) (layers *.Cu *.Mask) (tstamp 884d2181-0973-4d80-86a2-4094a9805f3d))
-  (model "${IOTVISION_3D_DIR}/Fuses/FuseHolderGlass5x20mm/Fuse_holder.stp"
+  (model "${IOTVISION_3D}/Fuses/FuseHolderGlass5x20mm/Fuse_holder.stp"
     (offset (xyz 11.5 0 5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

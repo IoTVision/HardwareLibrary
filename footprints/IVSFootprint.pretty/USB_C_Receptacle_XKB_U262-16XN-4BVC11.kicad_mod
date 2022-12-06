@@ -51,7 +51,7 @@
   (pad "S1" thru_hole oval (at -4.32 -3.105) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask) (tstamp 349b922c-4b57-4a5a-b9e9-fbd2200ecc79))
   (pad "S1" thru_hole oval (at 4.32 -3.105) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask) (tstamp 86ef7f00-b092-47ac-8a4a-9d36df529db6))
   (pad "S1" thru_hole oval (at 4.32 1.075) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask) (tstamp 9384f131-71cb-498f-9829-60301a016f43))
-  (model "${IOTVISION_3D_DIR}/Connector/USB-C_12pin_SMD/USB Type C Port (SMD Type).STEP"
+  (model "${IOTVISION_3D}/Connector/USB-C_12pin_SMD/USB Type C Port (SMD Type).STEP"
     (offset (xyz 0 3.5 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

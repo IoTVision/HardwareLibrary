@@ -63,7 +63,7 @@
   (pad "2" thru_hole circle (at 0 7) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask) (tstamp fda75b9c-d686-4e44-b969-45727a25db68))
   (pad "3" thru_hole circle (at 8 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask) (tstamp 35c68c92-fa89-42be-a379-753580e6c38d))
   (pad "4" thru_hole circle (at 8 7) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask) (tstamp 5b6e6cf9-1ef3-4c93-97f5-f61692b114ce))
-  (model "${IOTVISION_3D_DIR}/Filter/AC Filter Choke/filtr-ac-pins7x8.STEP"
+  (model "${IOTVISION_3D}/Filter/AC Filter Choke/filtr-ac-pins7x8.STEP"
     (offset (xyz 4 -3.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
