@@ -10,6 +10,10 @@
     (effects (font (size 1.001157 1.001157) (thickness 0.15)))
     (tstamp 0fd2c1aa-6477-4734-b5d7-93b123107786)
   )
+  (fp_text user "https://www.thegioiic.com/cong-rj11-cai-6p4c-4-chan-han-pcb" (at 0.1 10.5) (layer "Cmts.User") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b00e79fc-b94c-4c7c-977f-c843f298c5e3)
+  )
   (fp_line (start 4.7 5.7) (end -8.8 5.7) (layer "F.SilkS") (width 0.12) (tstamp 01b47d0d-1e21-4bc7-a8c9-c4009b759d08))
   (fp_line (start -7.96 -2.004835) (end -2.96 -2.004835) (layer "F.SilkS") (width 0.12) (tstamp 3635ea74-912e-4704-bc1a-01f9b376be18))
   (fp_line (start -8.8 -8.8) (end 4.7 -8.8) (layer "F.SilkS") (width 0.12) (tstamp 43e5375d-bb81-44cd-947e-7fc138a765d0))
