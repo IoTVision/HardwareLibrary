@@ -30,7 +30,7 @@
   (pad "2" smd rect (at -3.175 1.27) (size 1.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ca7ec3bb-d61c-40b2-a382-16b6cee66afc))
   (pad "3" smd rect (at 3.175 1.27) (size 1.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d60451b1-8a50-4892-ae2d-0f6ae0242ae4))
   (pad "4" smd rect (at 3.175 -1.27) (size 1.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6a2eee09-c9b2-4f2e-8c15-01ddc04d000f))
-  (model "${IOTVISION_3D}/MCU_SoC_Package/SOIC4/SOP-4.step"
+  (model "${IOTVISION_3D}/MCU_SoC_Package/SOP4/SOP-4.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

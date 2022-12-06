@@ -1,4 +1,4 @@
-(footprint "BS2032" (version 20211014) (generator pcbnew)
+(footprint "BS2032_CR2032BatteryHolder" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr smd)
@@ -35,9 +35,10 @@
   (fp_line (start -7.151612 -7.255735) (end -11.45 -7.25) (layer "F.SilkS") (width 0.12) (tstamp fa93a3c5-ef78-45e9-85ab-3947c0f59680))
   (fp_arc (start 7 7.240858) (mid 0 10) (end -7 7.240858) (layer "F.SilkS") (width 0.12) (tstamp 4b2215c8-39b1-4888-a342-a2f109b48fa0))
   (fp_arc (start -7.151612 -7.255735) (mid 0.020824 -10.230199) (end 7.192551 -7.256671) (layer "F.SilkS") (width 0.12) (tstamp 8f53b383-c1aa-48c5-97b6-8e9e42ed8dd8))
-  (pad "1" smd roundrect (at 14.7 0) (size 3.8 4.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a798330a-9507-4a41-b7c6-5360c4bac6ac))
-  (pad "2" smd roundrect (at -14.7 0) (size 3.8 4.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 95cb828c-17ca-4a18-8e24-008f026b832f))
-  (model "E:/IoT_Lab/PROJECT/hardware/ALTIUM/3D/CR2032 holder.step"
+  (fp_rect (start -16.85 -10.65) (end 16.95 10.4) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 34c997f9-81c7-4ecb-863f-aa30b7d794b0))
+  (pad "1" smd roundrect (at 14.7 0 270) (size 3.8 4.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a798330a-9507-4a41-b7c6-5360c4bac6ac))
+  (pad "2" smd roundrect (at -14.7 0 270) (size 3.8 4.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 95cb828c-17ca-4a18-8e24-008f026b832f))
+  (model "${IOTVISION_3D}/BatteryHolder/CR2032_BatteryHolder/CR2032 holder.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
