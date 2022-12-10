@@ -13,7 +13,9 @@
   (fp_line (start 0.3048 -2.4892) (end -0.3048 -2.4892) (layer "F.SilkS") (width 0.1524) (tstamp 57281825-52a5-400f-a637-e8f1cee7a6cc))
   (fp_line (start 1.6764 -2.4892) (end 0.3048 -2.4892) (layer "F.SilkS") (width 0.1524) (tstamp 5a29f445-46e3-4d45-b11c-d96c6d79fb24))
   (fp_line (start -1.6764 2.4892) (end 1.6764 2.4892) (layer "F.SilkS") (width 0.1524) (tstamp 5fee8955-5e02-4826-8082-da34d0845723))
-  (fp_line (start -0.3048 -2.4892) (end -1.6764 -2.4892) (layer "F.SilkS") (width 0.1524) (tstamp 85ae3903-725f-4416-a7ed-5ab128ec5c50))
+  (fp_line (start -0.3048 -2.5) (end -2 -2.5) (layer "F.SilkS") (width 0.1524) (tstamp 85ae3903-725f-4416-a7ed-5ab128ec5c50))
+  (fp_line (start -2 -2.3) (end -2 -2.4892) (layer "F.SilkS") (width 0.1527) (tstamp cfeeb3f0-5226-4c66-8641-379784c1c273))
+  (fp_line (start -2 -2.3) (end -3.3 -2.3) (layer "F.SilkS") (width 0.1527) (tstamp df2c6acb-e295-41fb-bcc9-96b8d59bfd6a))
   (fp_arc (start 0.3048 -2.4892) (mid 0 -2.1844) (end -0.3048 -2.4892) (layer "F.SilkS") (width 0.1524) (tstamp 20ed3732-e229-4d4e-96d1-519731c79ff9))
   (fp_rect (start -3.9 -2.7) (end 3.8 2.8) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp e8f0a9ff-e1de-4e97-80c0-e54c90a1c53f))
   (fp_line (start -2.0066 2.159) (end -2.0066 1.651) (layer "F.Fab") (width 0.1) (tstamp 0247371c-2ea6-47b1-83ff-09ef201d2350))
@@ -63,9 +65,9 @@
   (pad "6" smd roundrect (at 2.5908 0.635) (size 1.7018 0.5334) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp eebbbdc6-1f02-442c-bffa-9c07c0328ed7))
   (pad "7" smd roundrect (at 2.5908 -0.635) (size 1.7018 0.5334) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2ebbd285-cc3b-4b17-a762-d3a2694d2301))
   (pad "8" smd roundrect (at 2.5908 -1.905) (size 1.7018 0.5334) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e325461f-d927-4bd9-af3a-d19fce3706f6))
-  (model "${IOTVISION_3D}/MCU_SoC_Package/SOIC_package/SO8 Narrow 3.9mm.step"
-    (offset (xyz 0 0 0))
+  (model "E:/IoT_Lab/PROJECT/hardware/ALTIUM/3D/SOIC/SOIC8/8SIOC.stp"
+    (offset (xyz 0 0 0.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz -90 0 90))
   )
 )
