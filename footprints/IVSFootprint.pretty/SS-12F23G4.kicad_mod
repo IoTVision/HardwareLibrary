@@ -27,4 +27,9 @@
   (pad "3" thru_hole circle (at 3 0) (size 2.3 2.3) (drill 1.3) (layers *.Cu *.Mask) (tstamp 7ebf62f2-e546-4ff5-97d0-d79b3307b7f0))
   (pad "S" thru_hole oval (at 6.3 0) (size 2.2 2.8) (drill oval 1.1 1.7) (layers *.Cu *.Mask) (tstamp 063a26e6-cb85-4807-a91b-d3911847d8b9))
   (pad "S" thru_hole oval (at -6.3 0) (size 2.2 2.8) (drill oval 1.1 1.7) (layers *.Cu *.Mask) (tstamp 41b64c8e-0cdb-4147-9091-0f1bfa04d825))
+  (model "${IOTVISION_3D}/Switch_Button/Selector_Switch/Slide Switch - SS12F23.stp"
+    (offset (xyz 0 -5.7 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
