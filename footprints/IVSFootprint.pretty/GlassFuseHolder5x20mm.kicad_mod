@@ -23,11 +23,7 @@
   (fp_rect (start 6 -3) (end 18 3) (layer "F.SilkS") (width 0.3) (fill none) (tstamp b7d9b673-5485-40d2-993d-dd0263472d06))
   (fp_arc (start 12 0) (mid 15 -3) (end 18 0) (layer "F.SilkS") (width 0.3) (tstamp 1ed6fa84-8454-4c88-969b-cc111d2f5ef1))
   (fp_arc (start 12 0) (mid 9 3) (end 6 0) (layer "F.SilkS") (width 0.3) (tstamp 57bd7988-d7d6-4977-b87e-66659a9ec717))
-  (fp_line (start 5.98 0) (end 2 0) (layer "F.CrtYd") (width 0.05) (tstamp 2631e374-7895-4ef3-973a-a51013f39ac4))
-  (fp_line (start 21 -0.01) (end 18.02 -0.01) (layer "F.CrtYd") (width 0.05) (tstamp 906e948c-bea4-4e98-a066-636455255a90))
   (fp_rect (start -1 -4.99) (end 24 5) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 3a26d125-f15b-43df-bbd9-b927048edaca))
-  (fp_arc (start 12 0) (mid 8.99 3.01) (end 5.98 0) (layer "F.CrtYd") (width 0.05) (tstamp 38a8bbde-6a86-4728-bfd3-873f6f598c1e))
-  (fp_arc (start 12 -0.01) (mid 15.01 -3.02) (end 18.02 -0.01) (layer "F.CrtYd") (width 0.05) (tstamp 53c6295d-66b9-4720-8274-adbfae4cad86))
   (pad "1" thru_hole oval (at 0 0) (size 1.8 2.8) (drill oval 0.85 1.8) (layers *.Cu *.Mask) (tstamp 8071e14f-0412-4588-b848-d1124cf01dbd))
   (pad "2" thru_hole oval (at 22.75 0) (size 1.8 2.8) (drill oval 0.85 1.8) (layers *.Cu *.Mask) (tstamp 884d2181-0973-4d80-86a2-4094a9805f3d))
   (model "${IOTVISION_3D}/Fuses/FuseHolderGlass5x20mm/Fuse_holder.stp"

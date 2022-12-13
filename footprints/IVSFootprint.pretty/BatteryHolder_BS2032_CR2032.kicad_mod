@@ -1,6 +1,7 @@
-(footprint "BS2032_CR2032BatteryHolder" (version 20211014) (generator pcbnew)
+(footprint "BatteryHolder_BS2032_CR2032" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
+  (tags "BatHolder")
   (attr smd)
   (fp_text reference "REF**" (at -9 8.675 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
