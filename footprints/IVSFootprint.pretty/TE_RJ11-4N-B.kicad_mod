@@ -47,7 +47,7 @@
       f5140ef2-0862-4f46-af72-25ad1820f0ec
     )
   )
-  (model "${IOTVISION_3D}/Connector/RJ11_Connector/TJ6P4C/TJ6P4C.stp"
+  (model "${IOTVISION_3D}/Connector/RJ11/TJ6P4C/TJ6P4C.stp"
     (offset (xyz 2.5 3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

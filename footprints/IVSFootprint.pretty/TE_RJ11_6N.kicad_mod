@@ -52,7 +52,7 @@
       f68c8dc0-74d6-4a84-909a-1935b0883293
     )
   )
-  (model "${IOTVISION_3D}/Connector/RJ11_Connector/TJ6P6C/TJ6P6C gray.stp"
+  (model "${IOTVISION_3D}/Connector/RJ11/TJ6P6C/TJ6P6C.stp"
     (offset (xyz 2.6 3.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
