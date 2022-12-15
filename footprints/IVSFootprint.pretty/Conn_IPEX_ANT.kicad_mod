@@ -7,7 +7,7 @@
     (tstamp 8fb1123d-75ba-4e92-b2df-72cfa28ce68d)
   )
   (fp_text value "Conn_IPEX_ANT" (at 0.1 -3.1 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
     (tstamp 9e594199-e8a1-49bf-a740-47360a56580d)
   )
   (fp_text user "${REFERENCE}" (at 0.4 3.3 unlocked) (layer "F.Fab")

@@ -41,7 +41,7 @@
   (pad "4" smd rect (at 3.75 -3.552088) (size 1.2954 4.4958) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp df36941a-b1a4-4e33-a3d6-46d45d5d994a))
   (pad "5" smd rect (at -6.949999 3.247911 90) (size 3.9116 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fe34d8b2-d394-4208-b158-fd550b797372))
   (pad "6" smd rect (at 6.949999 3.247911 90) (size 3.9116 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8c9f0c76-ccf7-405e-8624-f8fee20b982b))
-  (model "${IOTVISION_3D}/Connector/JST_Connector/SMD/JST-XH-SMD-Right-2.54mm/S4B-XH-SM4-TB.STEP"
+  (model "${IOTVISION_3D}/Connector/JST/SMD/JST-XH-SMD-Right-2.54mm/S4B-XH-SM4-TB.STEP"
     (offset (xyz 0 -3.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

@@ -2,11 +2,11 @@
   (layer "F.Cu")
   (tedit 0)
   (attr smd)
-  (fp_text reference "REF**" (at 5 1 unlocked) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 4.5 -1.8 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d2eaa4a7-32d1-46db-b1b6-8721ff1ae320)
   )
-  (fp_text value "ACFilterChokeUU9.8" (at 4.25 9.25 unlocked) (layer "F.Fab")
+  (fp_text value "ACFilterChokeUU9.8" (at 4.25 9.25 unlocked) (layer "Cmts.User")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f42211e1-4832-4c33-9e65-968857509e0c)
   )
