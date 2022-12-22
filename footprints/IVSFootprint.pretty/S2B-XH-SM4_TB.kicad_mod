@@ -33,10 +33,10 @@
   (fp_line (start 6 -5.0038) (end -5.8 -5.0038) (layer "F.Fab") (width 0.1) (tstamp 66e4f24c-7cce-453e-adaf-c22dd9d2af84))
   (fp_line (start 6 5.0038) (end 6 -5.0038) (layer "F.Fab") (width 0.1) (tstamp 7cf81fb5-636a-4231-9291-e03a5bbaab1c))
   (fp_line (start -5.8 -5.0038) (end -5.8 5.0038) (layer "F.Fab") (width 0.1) (tstamp b15242ce-2ca4-4b8c-bce6-8671bb1ed55f))
-  (pad "1" smd rect (at 4.7 3 90) (size 3.9116 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 05651a5e-9fd9-45fb-a588-d761433b6567))
   (pad "1" smd rect (at -1.25 -3.552088) (size 1.2954 4.4958) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 294654ec-7377-44dd-85c4-4861ccc86a96))
-  (pad "1" smd rect (at -4.3 3 90) (size 3.9116 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ce9867e5-dbd9-47ba-ba65-7a4e6ff24ea8))
   (pad "2" smd rect (at 1.25 -3.552088) (size 1.2954 4.4958) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d1da681f-7cd0-4ed9-bd8a-78c71cdfdfae))
+  (pad "S" smd rect (at 4.7 3 90) (size 3.9116 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 05651a5e-9fd9-45fb-a588-d761433b6567))
+  (pad "S" smd rect (at -4.3 3 90) (size 3.9116 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ce9867e5-dbd9-47ba-ba65-7a4e6ff24ea8))
   (model "${IOTVISION_3D}/Connector/JST/SMD/JST-XH-SMD-Right-2.54mm/S2B-XH-SM4-TB.STEP"
     (offset (xyz 0 -3.5 0))
     (scale (xyz 1 1 1))

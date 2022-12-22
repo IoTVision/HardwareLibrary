@@ -1,4 +1,4 @@
-(footprint "S6B-XH-SM4-TBLFSN" (version 20211014) (generator pcbnew)
+(footprint "S6B-XH-SM4-TB" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
@@ -47,8 +47,8 @@
   (pad "4" smd rect (at -1.25 2.953801 180) (size 1.2954 4.4958) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 872568d9-f782-4012-aae2-602b74b939b7))
   (pad "5" smd rect (at -3.75 2.953801 180) (size 1.2954 4.4958) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 341aef71-f36c-41ea-9777-1dd61f115a31))
   (pad "6" smd rect (at -6.25 2.953801 180) (size 1.2954 4.4958) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c809f00f-b0ee-439f-a197-20a92f132789))
-  (pad "7" smd rect (at 9.449999 -3.846199 180) (size 1.8034 3.9116) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fcd301db-cf78-4f8c-86bd-2ce3e0eaffe9))
-  (pad "8" smd rect (at -9.449999 -3.846199 180) (size 1.8034 3.9116) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 323f6587-8325-4f72-b391-799f5a662281))
+  (pad "S" smd rect (at -9.449999 -3.846199 180) (size 1.8034 3.9116) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 323f6587-8325-4f72-b391-799f5a662281))
+  (pad "S" smd rect (at 9.449999 -3.846199 180) (size 1.8034 3.9116) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fcd301db-cf78-4f8c-86bd-2ce3e0eaffe9))
   (model "${IOTVISION_3D}/Connector/JST/SMD/JST-XH-SMD-Right-2.54mm/S6B-XH-SM4-TB.STEP"
     (offset (xyz 0 4.5 0))
     (scale (xyz 1 1 1))
