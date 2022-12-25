@@ -1,12 +1,12 @@
 (footprint "QFN40 5x5" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -0.5 -4.5) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 880345a2-bc56-4795-a82d-c2d2852000e9)
   )
-  (fp_text value "QFN40_MP_MCH" (at 0.05 4.3) (layer "F.SilkS")
+  (fp_text value "QFN40" (at 0.05 4.3) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 498a922f-7256-49e9-812c-b4bcd5175a57)
   )
@@ -41,7 +41,7 @@
   (fp_line (start -2 -2.625) (end -2.625 -2) (layer "F.SilkS") (width 0.12) (tstamp d00ffd79-1537-4101-8253-5906526dc82b))
   (fp_line (start 2.6289 2.6289) (end 2.6289 2) (layer "F.SilkS") (width 0.12) (tstamp dc4e56e1-495b-48a7-a238-2add5d3c8034))
   (fp_line (start 2.6289 -2.6289) (end 2 -2.6289) (layer "F.SilkS") (width 0.12) (tstamp fb9711c9-779b-437f-a707-f4c0b3938910))
-  (fp_circle (center -2.625 -2.625) (end -2.5 -2.625) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp b1119247-6587-4849-92c8-c67440b10251))
+  (fp_circle (center -3.1 -3) (end -2.975 -3) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp b1119247-6587-4849-92c8-c67440b10251))
   (fp_line (start -3.0607 2.1556) (end -3.0607 -2.1556) (layer "F.CrtYd") (width 0.05) (tstamp 00c662e8-8b8c-453c-9ecb-1ae175bf2dea))
   (fp_line (start 3.0607 2.1556) (end 2.7559 2.1556) (layer "F.CrtYd") (width 0.05) (tstamp 0ac20b74-e0ab-4434-b039-ca028f13c39e))
   (fp_line (start 2.7559 -2.1556) (end 3.0607 -2.1556) (layer "F.CrtYd") (width 0.05) (tstamp 1ef0131f-4ba1-4a78-a43f-cfbe6d408af3))
@@ -275,7 +275,7 @@
   (pad "39" smd rect (at -1.4 -2.4003) (size 0.2032 0.8128) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp efc7bf0f-8c27-418a-b42d-857e4e298c6d))
   (pad "40" smd rect (at -1.799999 -2.4003) (size 0.2032 0.8128) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 87303ecd-7044-417a-9fb9-2e80598710ce))
   (pad "41" smd rect (at 0 0) (size 3.7084 3.7084) (layers "F.Cu" "F.Mask") (tstamp 57408360-2ba4-4e2f-805f-ac28587c87cd))
-  (model "E:/IoT_Lab/PROJECT/hardware/ALTIUM/3D/QFN40_MP_MCH.step"
+  (model "${IOTVISION_3D}/MCU_SoC_Package/QFN/QFN-40_5x5-Part.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
