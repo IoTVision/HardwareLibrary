@@ -35,7 +35,7 @@
   (pad "1" smd rect (at 6.1 -2.23) (size 3.048 1.85) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9e84dfc2-68fe-4783-863d-e8ef99d807bc))
   (pad "2" smd rect (at 6.1 2.77) (size 3.048 1.85) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1b03d4e9-4ba2-462b-9d09-c964ee61161e))
   (pad "2" smd rect (at -6.4 2.77) (size 3.048 1.85) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 35128028-1ae4-4fdf-a63b-3a4b8702ee7f))
-  (model "E:/IoT_Lab/PROJECT/hardware/ALTIUM/3D/Tactal Switch - SMD (12mmx12mmx6.5mm).stp"
+  (model "${IOTVISION_3D}/Switch_Button/TactileSwitch_Button/SMD/PTS125S_12x12/Tactal Switch - SMD (12mmx12mmx7.0mm).stp"
     (offset (xyz 0 -0.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
