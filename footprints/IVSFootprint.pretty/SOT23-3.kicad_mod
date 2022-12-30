@@ -4,7 +4,7 @@
   (property "Sheetfile" "File: SIMA7602E.kicad_sch")
   (property "Sheetname" "SIMA7602E")
   (attr smd)
-  (fp_text reference "REF**" (at 0.9 -1.4 unlocked) (layer "Cmts.User")
+  (fp_text reference "REF**" (at 0.9 -1.4 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4013d847-a53e-4265-9ff1-b32c0737f41a)
   )
@@ -31,7 +31,7 @@
   (fp_line (start 1.7 -0.325) (end 1.7 2.575) (layer "F.Fab") (width 0.1) (tstamp 5a1ff162-0163-4447-80d0-772fc32f2fe0))
   (fp_line (start 0.4 2.575) (end 0.4 0) (layer "F.Fab") (width 0.1) (tstamp bbcd8acb-fd21-424d-be34-bc53bc9e5901))
   (fp_line (start 0.725 -0.325) (end 1.7 -0.325) (layer "F.Fab") (width 0.1) (tstamp bdfac8e1-e0f2-4008-a239-25e31b8f1730))
-  (pad "1" smd roundrect (at -0.25 0.1) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 351326b3-82b1-40ef-881a-f4a2b5ba056f))
+  (pad "1" smd roundrect (at -0.25 0.05) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 351326b3-82b1-40ef-881a-f4a2b5ba056f))
   (pad "2" smd roundrect (at -0.25 1.95) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e69c57b5-db63-42a8-a5c3-dab304b4d52b))
   (pad "3" smd roundrect (at 2.2875 1) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0a2aa2e2-e657-455e-8d10-b988b9cbe509))
   (model "${IOTVISION_3D}/MCU_SoC_Package/SOT23/SOT23-3.step"
