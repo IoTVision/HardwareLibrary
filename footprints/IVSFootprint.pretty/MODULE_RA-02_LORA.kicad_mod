@@ -55,7 +55,7 @@
   (pad "14" smd rect (at 7.7 -3 180) (size 2.6 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3e06b6a3-e65c-4d02-a30b-79972e288289))
   (pad "15" smd rect (at 7.7 -5 180) (size 2.6 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b460e979-6a37-464b-973e-0bd87e132727))
   (pad "16" smd rect (at 7.7 -7 180) (size 2.6 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8747aea3-9fc3-41bf-88fa-9d651b31f2c6))
-  (model "E:/IoT_Lab/3D/Module/Ra02_LORA/LoRa_Module_RA-02_AiThinker.step"
+  (model "${IOTVISION_3D}/Module/Ra02_LORA/LoRa_Module_RA-02_AiThinker.step"
     (offset (xyz -8 8.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

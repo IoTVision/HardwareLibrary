@@ -53,11 +53,11 @@
   (fp_line (start 2.699992 -6.034999) (end -6.899989 -6.034999) (layer "F.Fab") (width 0.1) (tstamp 658da4ff-a452-46ce-ab69-a9b896c1b205))
   (fp_line (start -6.899989 -6.034999) (end -6.899989 13.9) (layer "F.Fab") (width 0.1) (tstamp 862a4673-aa98-4496-9d05-0bb4c0b033fc))
   (pad "" np_thru_hole circle (at -2.1 7.300001) (size 2.999999 2.999999) (drill 2.999999) (layers *.Cu *.Mask) (tstamp ba1a3f15-e5b5-416a-843b-f112a552ebca))
-  (pad "1" thru_hole rect (at 0 0) (size 2.3 2.3) (drill 1.8) (layers *.Cu *.Mask) (tstamp 6189d8aa-79c3-40fd-b120-930d776d1527))
-  (pad "2" thru_hole circle (at -4.199999 0) (size 2.3 2.3) (drill 1.8) (layers *.Cu *.Mask) (tstamp e0ce2fe8-69dc-4f70-af69-5a567d7dd80a))
-  (pad "3" thru_hole circle (at 0 -5.499999) (size 2.3 2.3) (drill 1.8) (layers *.Cu *.Mask) (tstamp b34687dc-6f54-407c-8c52-e2a016569673))
-  (pad "4" thru_hole circle (at -4.199999 -5.499999) (size 2.3 2.3) (drill 1.8) (layers *.Cu *.Mask) (tstamp 35716e67-93bd-4db6-8674-514e87947499))
-  (model "E:/IoT_Lab/3D/Connector/039300040.stp"
+  (pad "1" thru_hole rect (at 0 0) (size 3 3) (drill 1.8) (layers *.Cu *.Mask) (tstamp 6189d8aa-79c3-40fd-b120-930d776d1527))
+  (pad "2" thru_hole circle (at -4.199999 0) (size 3 3) (drill 1.8) (layers *.Cu *.Mask) (tstamp e0ce2fe8-69dc-4f70-af69-5a567d7dd80a))
+  (pad "3" thru_hole circle (at 0 -5.499999) (size 3 3) (drill 1.8) (layers *.Cu *.Mask) (tstamp b34687dc-6f54-407c-8c52-e2a016569673))
+  (pad "4" thru_hole circle (at -4.199999 -5.499999) (size 3 3) (drill 1.8) (layers *.Cu *.Mask) (tstamp 35716e67-93bd-4db6-8674-514e87947499))
+  (model "${IOTVISION_3D}/Connector/Header/Header 5569 4.2mm/039300040.stp"
     (offset (xyz -2 -13.8 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -180 180))
