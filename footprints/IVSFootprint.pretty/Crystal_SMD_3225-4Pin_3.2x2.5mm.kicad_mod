@@ -29,7 +29,7 @@
   (fp_line (start -1.65 -1.1) (end -1.65 1.4) (layer "F.Fab") (width 0.1) (tstamp c0d966d3-a82d-4d9c-b4cd-20659c44b9db))
   (fp_line (start 1.55 -1.1) (end -1.65 -1.1) (layer "F.Fab") (width 0.1) (tstamp c29fe93d-7074-4bfe-832a-f2f929c3fb35))
   (pad "1" smd roundrect (at -1.5 1.3) (size 2.1 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0)
-    (chamfer_ratio 0.2) (chamfer bottom_left) (tstamp bf1b0821-0824-4332-b5fc-179b802037e8))
+    (chamfer_ratio 0.4) (chamfer bottom_left) (tstamp bf1b0821-0824-4332-b5fc-179b802037e8))
   (pad "2" smd rect (at 1.4 1.3) (size 2.1 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f0faf0da-3c84-4f5a-b6a8-903b5cd457d8))
   (pad "3" smd rect (at 1.4 -1) (size 2.1 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 21c7abc4-7e99-44dc-b403-5078d7c32b48))
   (pad "4" smd rect (at -1.5 -1) (size 2.1 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 33444f5e-a285-4cd4-8123-3dd6afbcf0b8))

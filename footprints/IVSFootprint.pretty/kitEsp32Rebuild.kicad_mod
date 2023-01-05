@@ -58,27 +58,27 @@
   (pad "36" thru_hole circle (at 20.32 35.56) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp d78f0fdf-47fa-45f2-befe-4cf248f4bcb3))
   (pad "37" thru_hole circle (at 20.32 38.1) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 841978d9-7df8-4f1b-bb2b-c03fd466d144))
   (pad "38" thru_hole circle (at 20.32 40.64) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 84d11c08-8cee-4bc2-9de9-4abfdefd3e88))
-  (model "${IOTVISION_3D}/Module/DepKitESP32/DepKitESP32.STEP"
+  (model "${IOTVISION_3D}/Module/DepKitESP32/DevKitESP32.STEP"
     (offset (xyz 7.6 -17.8 11))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "${IOTVISION_3D}/Connector/Pinheader_Female_2.54/1x9.STEP"
+  (model "${IOTVISION_3D}/Connector/Header/Header 2.54mm/Pinheader_Female_2.54/1x9.STEP"
     (offset (xyz -6.3 6.3 8.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "${IOTVISION_3D}/Connector/Pinheader_Female_2.54/1x10.STEP"
+  (model "${IOTVISION_3D}/Connector/Header/Header 2.54mm/Pinheader_Female_2.54/1x10.STEP"
     (offset (xyz -6.3 -16.5 8.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "${IOTVISION_3D}/Connector/Pinheader_Female_2.54/1x10.STEP"
+  (model "${IOTVISION_3D}/Connector/Header/Header 2.54mm/Pinheader_Female_2.54/1x10.STEP"
     (offset (xyz 19 -16.5 8.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "${IOTVISION_3D}/Connector/Pinheader_Female_2.54/1x9.STEP"
+  (model "${IOTVISION_3D}/Connector/Header/Header 2.54mm/Pinheader_Female_2.54/1x9.STEP"
     (offset (xyz 19 6.5 8.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
