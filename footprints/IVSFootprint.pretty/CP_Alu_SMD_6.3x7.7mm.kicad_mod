@@ -1,4 +1,4 @@
-(footprint "CP_Elec_6.3x7.7" (version 20211014) (generator pcbnew)
+(footprint "CP_Alu_SMD_6.3x7.7mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 5BCA39D0)
   (descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm")
