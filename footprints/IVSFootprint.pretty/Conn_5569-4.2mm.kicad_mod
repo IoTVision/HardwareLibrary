@@ -1,4 +1,4 @@
-(footprint "5569-4.2mm" (version 20211014) (generator pcbnew)
+(footprint "Conn_5569-4.2mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
