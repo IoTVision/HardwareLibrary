@@ -1,4 +1,4 @@
-(footprint "BUTTON_PUSH_12mm" (version 20211014) (generator pcbnew)
+(footprint "ButtonPush_12mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr smd)
