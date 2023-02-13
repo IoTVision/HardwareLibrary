@@ -158,7 +158,6 @@
   (pad "9" smd roundrect (at 1.4 -0.5) (size 0.6 0.24) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.3) (tstamp de5dede6-43ac-4887-a967-74556c838c1c))
   (pad "10" smd roundrect (at 1.4 -1) (size 0.6 0.24) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.3) (tstamp e62f1dca-f277-4c15-bd75-bf51bf0405b6))
   (pad "11" smd custom (at 0 0) (size 1.65 2.4) (layers "F.Cu")
-    (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -184,7 +183,7 @@
           (xy -0.825 1.2)
         ) (width 0.01) (fill yes))
     ) (tstamp 28d80ab1-ea8c-4594-8a65-1bd86b6d655d))
-  (pad "11" thru_hole circle (at 0 -0.95) (size 0.3 0.3) (drill 0.2) (layers *.Cu) (tstamp 4022d22f-953e-43b6-b75d-6fa9cd2ccf9c))
+  (pad "11" thru_hole circle (at 0 -0.95) (size 0.3 0.3) (drill 0.2) (layers *.Cu "F.Paste") (tstamp 4022d22f-953e-43b6-b75d-6fa9cd2ccf9c))
   (pad "11" thru_hole circle (at 0 0.95) (size 0.3 0.3) (drill 0.2) (layers *.Cu) (tstamp 76be9184-b013-4389-bbcd-90bc8d852e3a))
   (pad "11" thru_hole circle (at -0.575 0) (size 0.3 0.3) (drill 0.2) (layers *.Cu) (tstamp d2ba0321-6da1-435d-8ee1-bacd78208770))
   (pad "11" thru_hole circle (at 0.575 0) (size 0.3 0.3) (drill 0.2) (layers *.Cu) (tstamp d9da6e8a-6cf7-451b-9b98-11b0e35c42ea))
