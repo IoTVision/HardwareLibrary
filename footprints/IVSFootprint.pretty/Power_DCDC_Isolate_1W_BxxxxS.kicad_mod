@@ -1,4 +1,4 @@
-(footprint "B0505S" (version 20211014) (generator pcbnew)
+(footprint "Power_DCDC_Isolate_1W_BxxxxS" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8780a94a-be3e-407d-aa7d-658e43349cbb)
   )
-  (fp_text value "B0505S" (at 4.28 -3.9 unlocked) (layer "Cmts.User") hide
+  (fp_text value "BxxxxS_1W" (at 4.28 -3.9 unlocked) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp eeba35cf-8443-4f8f-96c3-a6458005d723)
   )
@@ -26,7 +26,7 @@
   (pad "2" thru_hole circle (at 2.54 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 83e6bfef-0633-44fe-8cd6-e06f987f0998))
   (pad "3" thru_hole circle (at 5.08 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 0fe31aca-07f2-44c7-93b2-79c63f20020b))
   (pad "4" thru_hole circle (at 7.62 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 239b2855-8a4c-4096-9c42-6d0e0ef1c5e3))
-  (model "${IOTVISION_3D}/Power/DC_DC_convertor/Isolate/1W/MORNSUN_BxxxxS-1WR3.step"
+  (model "${IOTVISION_3D}/Power/DCDC_Converter/Isolate/1W/MORNSUN_BxxxxS-1WR3.step"
     (offset (xyz -2 -1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
