@@ -37,8 +37,8 @@
   (fp_line (start 1.4 0.9) (end -1.4 0.9) (layer "F.Fab") (width 0.1) (tstamp ec3dc1fc-8aa1-458e-9371-40edc954bcb4))
   (fp_line (start -1.4 0.9) (end -1.4 -0.9) (layer "F.Fab") (width 0.1) (tstamp ed7fc633-6269-441c-a093-c057e7c077b9))
   (fp_line (start 1.4 -0.9) (end 1.4 0.9) (layer "F.Fab") (width 0.1) (tstamp f94a7c5d-03e0-4548-b148-9b65d9fb4514))
-  (pad "1" smd roundrect (at 1.7 0) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 07d67326-ce86-4131-a1ab-962fc66b8593))
-  (pad "2" smd roundrect (at -1.7 0) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4bcf82e0-1361-436f-985d-ea57079fd691))
+  (pad "1" smd roundrect (at -1.7 0) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4bcf82e0-1361-436f-985d-ea57079fd691))
+  (pad "2" smd roundrect (at 1.7 0) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 07d67326-ce86-4131-a1ab-962fc66b8593))
   (model "${IOTVISION_3D}/Diode/SOD123/SOD123.step"
     (offset (xyz -1.4 -0.85 0.5))
     (scale (xyz 1 1 1))
