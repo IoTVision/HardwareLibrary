@@ -49,8 +49,8 @@
   (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp a9c11da8-b4f0-4567-b67c-bd51107b55da))
   (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp c28b47be-9f8c-4af7-9a2a-a2ecc65dcee2))
   (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp ccc17542-eb3b-4d7f-bc99-775a773c192a))
-  (pad "1" smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2d726964-5171-4e39-a003-d93b82e26438))
-  (pad "2" smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0be5ae59-7a3b-4b9a-bc80-0376c78bb6ab))
+  (pad "1" smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0be5ae59-7a3b-4b9a-bc80-0376c78bb6ab))
+  (pad "2" smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2d726964-5171-4e39-a003-d93b82e26438))
   (model "${IOTVISION_3D}/Diode/LED/LED/0603 Blue.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

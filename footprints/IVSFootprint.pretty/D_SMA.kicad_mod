@@ -26,8 +26,8 @@
   (fp_line (start 3.45 1.8) (end -3.55 1.8) (layer "F.CrtYd") (width 0.05) (tstamp 76918ea3-d549-41ca-ae71-4becdbd85e03))
   (fp_line (start -3.55 -1.7) (end 3.45 -1.7) (layer "F.CrtYd") (width 0.05) (tstamp ad4d5a53-1b1a-4f37-a455-28b69b5101dd))
   (fp_line (start -3.55 1.8) (end -3.55 -1.7) (layer "F.CrtYd") (width 0.05) (tstamp d36cba1e-d572-4b27-80f9-4e5bdbdcd221))
-  (pad "1" smd rect (at 1.95 0.05) (size 2.5 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d548c1fa-e41e-471c-89e1-c173cca58db3))
-  (pad "2" smd rect (at -2.05 0.05) (size 2.5 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a2c2ce00-6633-4d64-8582-9768fd49b8f1))
+  (pad "1" smd rect (at -2.05 0.05) (size 2.5 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a2c2ce00-6633-4d64-8582-9768fd49b8f1))
+  (pad "2" smd rect (at 1.95 0.05) (size 2.5 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d548c1fa-e41e-471c-89e1-c173cca58db3))
   (model "${IOTVISION_3D}/Diode/SMA/SMA (DO-214AC).STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

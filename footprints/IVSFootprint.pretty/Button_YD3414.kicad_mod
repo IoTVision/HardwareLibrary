@@ -36,7 +36,7 @@
   (pad "1" smd rect (at -2.6416 -0.6332 180) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dd7b2603-3c71-4fac-994e-bf5ed70bb9ea))
   (pad "2" smd rect (at 2.6084 1.0668 180) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5e8b5439-9238-43b9-af3e-e4287bb04d00))
   (pad "2" smd rect (at -2.6416 1.0668 180) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp afe32af6-af32-4d41-95e2-2894d9135d57))
-  (model "${IOTVISION_3D}/Switch_Button/TactileSwitch_Button/SMD/YD-3414/YD-3414 - Side SMD Switch .stp"
+  (model "${IOTVISION_3D}/Switch_Button/Button/SMD/YD-3414/YD-3414 - Side SMD Switch .stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
