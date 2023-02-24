@@ -78,8 +78,8 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7e5d6cee-70bb-464b-be65-0f3f0ff8c9b2)
   )
-  (fp_rect (start -8.2456 -2.1) (end 72.2624 33.9) (layer "F.SilkS") (width 0.12) (fill none) (tstamp a7d51cb1-abd2-4298-8e34-60912064fadf))
-  (fp_rect (start -8.2964 -2.1) (end 72.2116 33.9) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 9a00b265-98da-41a0-831d-d462e763ae6b))
+  (fp_rect (start -8.2456 -2.1) (end 72.2624 33.9) (layer "F.SilkS") (width 0.25) (fill none) (tstamp a7d51cb1-abd2-4298-8e34-60912064fadf))
+  (fp_rect (start -8.4 -2.275) (end 72.425 34.075) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 9a00b265-98da-41a0-831d-d462e763ae6b))
   (pad "" np_thru_hole circle (at 69.85 0.0508) (size 3 3) (drill 3) (layers F&B.Cu *.Mask) (tstamp 3aa3aa78-7d0c-48b5-83a7-547df094cbb7))
   (pad "" np_thru_hole circle (at -5.7404 0) (size 3 3) (drill 3) (layers F&B.Cu *.Mask) (tstamp 77e7214c-e0e7-4699-b220-efa313b4071c))
   (pad "" np_thru_hole circle (at -5.7404 31.5) (size 3 3) (drill 3) (layers F&B.Cu *.Mask) (tstamp bf951123-2459-4127-bc62-75edfee306ff))
@@ -105,10 +105,10 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
   )
-  (model "${IOTVISION_3D}/LCD/LCD1602/MODULO_DISPLAY_LCD1602.stp"
+  (model "${IOTVISION_3D}/Module/LCD/LCD16x2 Display with Driver I2C/LCD.STEP"
     (offset (xyz 32 -15.5 9.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 90 90))
+    (rotate (xyz -90 0 0))
   )
   (model "${IOTVISION_3D}/Connector/Header/Header 2.54mm/Pinheader_Female_2.54/1x6.STEP"
     (offset (xyz -1.3 -1.1 8.5))
