@@ -47,7 +47,7 @@ Chuyển qua Schematic: __*K*__
 
 Đặt via xuyên lỗ : __*V*__ (áp dụng khi đang ở chế độ đi dây)
 
-Giảm kích thước via: **\**
+Giảm kích thước via: \
 
 Tăng kích thước via: __*'*__
 
