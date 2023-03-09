@@ -49,7 +49,8 @@
       (xy 0.8 -0.575043)
       (xy 0.500037 -0.575043)
     ) (layer "F.Paste") (width 0.01) (fill solid) (tstamp f66c4a74-1d97-47a7-bb0d-89ec4f6849f9))
-  (fp_rect (start -1.17 -0.48) (end 1.05 0.45) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 30eeb943-d5fc-4879-9b8b-2029b8b0a404))
+  (fp_rect (start -1.15 -0.275) (end 1.1 0.275) (layer "F.SilkS") (width 0.25) (fill none) (tstamp 30eeb943-d5fc-4879-9b8b-2029b8b0a404))
+  (fp_rect (start -1.15 -0.275) (end -0.65 0.275) (layer "F.SilkS") (width 0.12) (fill none) (tstamp fe82aaba-d3d8-4f38-adff-bd3aa0cbfc42))
   (fp_circle (center -1.4 1.126393) (end -1.176393 1.126393) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp aaad112a-bf4c-49bc-aed0-c3df52e949b9))
   (fp_poly (pts
       (xy -0.225131 0.5)
