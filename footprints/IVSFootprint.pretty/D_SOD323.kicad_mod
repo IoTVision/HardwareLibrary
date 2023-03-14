@@ -4,7 +4,7 @@
   (descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
   (tags "Diode")
   (attr smd)
-  (fp_text reference "REF**" (at 0.125 -1.35) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.125 -1.52) (layer "F.SilkS")
     (effects (font (size 0.788969 0.788969) (thickness 0.15)))
     (tstamp a6c02bf1-1e2d-47c8-92a5-3420f4c7e230)
   )
@@ -21,7 +21,7 @@
   (fp_line (start -0.87 -0.625) (end -0.47 -0.625) (layer "F.SilkS") (width 0.25) (tstamp 8c88db05-abf2-40b5-924c-30aaf90cdd7a))
   (fp_line (start -0.87 0.5) (end -0.87 0.625) (layer "F.SilkS") (width 0.25) (tstamp 985736dd-ac8a-4083-85ac-567d9d3aa349))
   (fp_line (start -0.47 -0.625) (end 0.83 -0.625) (layer "F.SilkS") (width 0.25) (tstamp bf56c8a8-9424-414c-8c67-bef45d2376fc))
-  (fp_rect (start 1.455 0.825) (end -1.47 -0.825) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 43fb9d32-a18f-48d8-8ce8-1a69a1beab83))
+  (fp_rect (start 1.58 0.86) (end -1.61 -0.86) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 43fb9d32-a18f-48d8-8ce8-1a69a1beab83))
   (fp_line (start -0.87 0.625) (end -0.87 -0.625) (layer "F.Fab") (width 0.127) (tstamp b7f01a3b-fd6f-44d5-9189-98697227aff2))
   (fp_line (start 0.83 -0.625) (end 0.83 0.625) (layer "F.Fab") (width 0.127) (tstamp d29e6667-91cf-43ee-b0cd-1b57ed66e0a2))
   (fp_poly (pts
@@ -36,8 +36,8 @@
       (xy 0.83 -0.150154)
       (xy 1.23129 -0.150154)
     ) (layer "F.Fab") (width 0.01) (fill solid) (tstamp e922b372-a362-472e-a89b-a5720410cf20))
-  (pad "1" smd rect (at 1.08 0 180) (size 0.6 0.5) (layers "F.Cu" "F.Paste") (tstamp 5475025c-4e07-4791-9d5f-996608575042))
-  (pad "2" smd rect (at -1.12 0 180) (size 0.6 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dd76c8ad-22cc-4ec6-83b7-27f6eb430f9c))
+  (pad "1" smd rect (at 1.12 0 180) (size 0.8 0.6) (layers "F.Cu" "F.Paste") (tstamp 5475025c-4e07-4791-9d5f-996608575042))
+  (pad "2" smd rect (at -1.16 0 180) (size 0.8 0.6) (layers "F.Cu" "F.Paste") (tstamp dd76c8ad-22cc-4ec6-83b7-27f6eb430f9c))
   (model "${IOTVISION_3D}/Diode/SOD323/SOD323.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
