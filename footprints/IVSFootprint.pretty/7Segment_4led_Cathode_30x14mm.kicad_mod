@@ -27,7 +27,7 @@
   (pad "10" thru_hole circle (at -1.27 -5.08) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp abc138b4-bdd9-4fb6-bef7-2e9353aec333))
   (pad "11" thru_hole circle (at -3.81 -5.08) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 6aeee634-68b9-454b-a03f-3081add83c74))
   (pad "12" thru_hole circle (at -6.35 -5.08) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 95e2c9fe-8579-4d02-9bcd-4634bbfd0a75))
-  (model "E:/IoT_Lab/3D/Diode/LED/7Segment/4 Digit 7-Segment LED Display_30x14mm.STEP"
+  (model "${IOTVISION_3D}/Diode/LED/7Segment/4 Digit 7-Segment LED Display_30x14mm.STEP"
     (offset (xyz 0 0 7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
