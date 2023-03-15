@@ -1,4 +1,4 @@
-(footprint "AMS5915" (version 20221018) (generator pcbnew)
+(footprint "Sensor_Pressure-AMS5915" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at 2.15 7.5 unlocked) (layer "F.SilkS")
