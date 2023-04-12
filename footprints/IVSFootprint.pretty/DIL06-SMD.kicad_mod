@@ -1,0 +1,87 @@
+(footprint "DIL06-SMD" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>DIL 6 SMD</b><p>Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html")
+  (attr smd)
+  (fp_text reference "REF**" (at -1.589978 0.826788) (layer "F.SilkS")
+      (effects (font (size 0.701091 0.701091) (thickness 0.15)))
+    (tstamp c6ee0d10-5214-42a5-963e-d805fcad1b41)
+  )
+  (fp_text value "DIL06-SMD" (at -1.589275 -1.589275) (layer "F.Fab")
+      (effects (font (size 0.500559 0.500559) (thickness 0.15)))
+    (tstamp a429dc60-0f35-4977-81c3-3056b6cde03b)
+  )
+  (fp_line (start -4.385 -3.18) (end 4.36 -3.18)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 202710a7-c2b8-4d6a-8c04-172495a137e3))
+  (fp_line (start -4.385 3.18) (end -4.385 -3.18)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp bfefea10-727f-4e97-a8e7-ebecc5a2df0a))
+  (fp_line (start 4.36 -3.18) (end 4.36 2.664)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 6be5cce6-ac38-4f16-b2a9-4df528dcc777))
+  (fp_line (start 4.36 2.664) (end -4.285 2.664)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp ea23a078-3386-4013-acd8-be6a943549c6))
+  (fp_line (start 4.36 2.664) (end 4.36 3.18)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp f52e0a13-5a13-4c51-b7cb-41184a2dc577))
+  (fp_line (start 4.36 3.18) (end -4.385 3.18)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 49edc03d-c7c8-413f-bc33-5b7ac6a8a78f))
+  (fp_circle (center -3.5 2) (end -3.2239 2)
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp dc8c1421-502c-4c1e-bc6b-cb60207d385f))
+  (fp_poly
+    (pts
+      (xy -3.16202 -4.95)
+      (xy -1.935 -4.95)
+      (xy -1.935 -3.20204)
+      (xy -3.16202 -3.20204)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp e952c8c7-cb0e-47a4-8498-9edb623c057e))
+  (fp_poly
+    (pts
+      (xy -3.14617 3.2)
+      (xy -1.92 3.2)
+      (xy -1.92 4.95183)
+      (xy -3.14617 4.95183)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp d27596eb-5fc6-4c32-b02e-56bba08742c5))
+  (fp_poly
+    (pts
+      (xy -0.621204 -4.95)
+      (xy 0.605 -4.95)
+      (xy 0.605 -3.20622)
+      (xy -0.621204 -3.20622)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp a2750805-5653-4fe1-ae14-d78fc00e0407))
+  (fp_poly
+    (pts
+      (xy -0.605174 3.2)
+      (xy 0.62 3.2)
+      (xy 0.62 4.95142)
+      (xy -0.605174 4.95142)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp d365b9c5-1ea3-4299-8bd3-3587a39ab888))
+  (fp_poly
+    (pts
+      (xy 1.92086 -4.95)
+      (xy 3.145 -4.95)
+      (xy 3.145 -3.20143)
+      (xy 1.92086 -3.20143)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp f0e36ca8-1b2a-4c19-8d67-88f210cce22d))
+  (fp_poly
+    (pts
+      (xy 1.93882 3.2)
+      (xy 3.16 3.2)
+      (xy 3.16 4.95978)
+      (xy 1.93882 4.95978)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp b0451772-42cd-4e8e-8e51-b0318129ee92))
+  (pad "1" smd rect (at -2.54 4.645) (size 1.78 1.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 31c16a72-32bb-42df-a74f-689015d4dd45))
+  (pad "2" smd rect (at 0 4.645) (size 1.78 1.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c5de46c6-8136-4568-8e9b-463b4b87e186))
+  (pad "3" smd rect (at 2.54 4.645) (size 1.78 1.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 492fb3ea-27b5-4cbb-9ab5-c1545530154f))
+  (pad "4" smd rect (at 2.54 -4.645 180) (size 1.78 1.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6423cf84-6c27-4bc9-bffb-4096aaace197))
+  (pad "5" smd rect (at 0 -4.645 180) (size 1.78 1.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 22c8acf9-7391-49aa-bc2b-6ef85866c2da))
+  (pad "6" smd rect (at -2.54 -4.645 180) (size 1.78 1.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 96e0a13c-d59d-4755-881a-98026eac41c3))
+)
