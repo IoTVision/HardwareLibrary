@@ -51,8 +51,8 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 4470c009-fc06-4404-bd81-348d5781cf74))
   (fp_line (start 2.39944 1.49898) (end -2.20056 1.49898)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ccd8fbe4-bcf3-4888-acab-e18040fa1ea1))
-  (pad "1" smd roundrect (at -1.95 0) (size 2.4 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 90fd6c87-ea40-4b6a-9d24-4320c9925a9f))
-  (pad "2" smd roundrect (at 2.1 0) (size 2.4 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 013415c7-9de2-4402-8286-ee82e081923b))
+  (pad "1" smd roundrect (at 2.1 0) (size 2.4 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 013415c7-9de2-4402-8286-ee82e081923b))
+  (pad "2" smd roundrect (at -1.95 0) (size 2.4 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 90fd6c87-ea40-4b6a-9d24-4320c9925a9f))
   (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
