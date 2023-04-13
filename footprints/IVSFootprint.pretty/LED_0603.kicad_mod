@@ -70,8 +70,8 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Fab") (tstamp 90919a54-e9da-44d4-9238-8d89d1975e14))
-  (pad "1" smd roundrect (at -0.775 0) (size 0.85 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 254e82d7-284d-415d-a2d2-1d2fffaa1180))
-  (pad "2" smd roundrect (at 0.775 0) (size 0.85 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 541cf075-3206-44fe-8ed2-f948dc9ff569))
+  (pad "1" smd roundrect (at 0.775 0) (size 0.85 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 541cf075-3206-44fe-8ed2-f948dc9ff569))
+  (pad "2" smd roundrect (at -0.775 0) (size 0.85 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 254e82d7-284d-415d-a2d2-1d2fffaa1180))
   (model "${IOTVISION_3D}/Diode/LED/LED/0603 Blue.STEP" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
