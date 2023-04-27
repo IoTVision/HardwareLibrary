@@ -19,9 +19,9 @@
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 23ef6f8d-3b0d-4bd0-85c8-d176c72f53b0))
   (pad "1" smd roundrect (at -0.95 0) (size 1 1.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp bbee97c0-1cbe-4988-9645-04e24b972d79))
   (pad "2" smd roundrect (at 0.95 0) (size 1 1.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp c6bdeaca-0663-4c66-a2ab-fa80c51620c6))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+  (model "E:/IoT_Lab/3D/Capacitor/Cap_SMD/CAP/csmd-0805_l2_w1-25_h1-25.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
