@@ -11,7 +11,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8e34a5fa-d184-44b1-8fc1-f5566f9cf4b2)
   )
-  (fp_text value "USB_B_Micro" (at 0 4.75 180) (layer "F.Fab")
+  (fp_text value "USB_Micro_B" (at 0 -3.35 180) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 849b416d-16f3-4507-8112-3eb162fe3bcb)
   )
@@ -77,7 +77,7 @@
   (pad "6" smd rect (at 2.9 1.3) (size 1.2 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 970abc16-4914-4237-91f6-762316b681e8))
   (pad "6" thru_hole oval (at 3.5 1.3) (size 0.89 1.55) (drill oval 0.5 1.15) (layers "*.Cu" "*.Mask") (tstamp c95d3288-c702-456b-864d-0f8d874416ab))
   (model "${IOTVISION_3D}/Connector/USB/USB-Micro-B/Micro USB-B Female 5Pin SMD.STEP"
-    (offset (xyz 0 1.7 1))
+    (offset (xyz 0 1.7 1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

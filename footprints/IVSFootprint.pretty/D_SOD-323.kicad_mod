@@ -1,4 +1,4 @@
-(footprint "D_SOD323" (version 20221018) (generator pcbnew)
+(footprint "D_SOD-323" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
   (tags "Diode")
@@ -9,7 +9,7 @@
       (effects (font (size 0.8 0.8) (thickness 0.2) bold))
     (tstamp e84f942f-35b6-4d2b-b4af-977cf0b33fca)
   )
-  (fp_text value "D_Schottky" (at 0.1 1.475 180) (layer "F.Fab")
+  (fp_text value "D_SOD-323" (at 0.1 1.475 180) (layer "F.Fab")
       (effects (font (size 0.789126 0.789126) (thickness 0.15)))
     (tstamp 9c5849e0-4d57-4927-821f-00c1ac14692b)
   )
@@ -55,8 +55,8 @@
     )
 
     (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 2477cf0b-d6ab-4505-a4eb-ccc48264e83e))
-  (pad "1" smd rect (at 1.1427 -0.0023 180) (size 0.8 0.6) (layers "F.Cu" "F.Paste") (tstamp e4ba4f06-09ef-4921-9e65-d384c6f22e4c))
-  (pad "2" smd rect (at -1.1373 -0.0023 180) (size 0.8 0.6) (layers "F.Cu" "F.Paste") (tstamp 4c209597-8583-44c0-be1f-e8003e6eb436))
+  (pad "1" smd roundrect (at 1.25 0 180) (size 1.1 0.9) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.25) (tstamp 1e3135e2-0387-404e-ba8a-9ab1ad874313))
+  (pad "2" smd roundrect (at -1.25 -0.0023 180) (size 1.1 0.9) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.25) (tstamp 4c209597-8583-44c0-be1f-e8003e6eb436))
   (model "${IOTVISION_3D}/Diode/SOD323/SOD323.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
