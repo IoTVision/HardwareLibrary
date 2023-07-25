@@ -35,8 +35,8 @@
   (pad "2" smd roundrect (at 0.95 1.1375 90) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 094d9835-e8f0-495c-b473-9066cb7a9508))
   (pad "3" smd roundrect (at 0 -1.1375 90) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 5a15d2d5-9a91-4912-80ca-690203ca1fc2))
   (model "${IOTVISION_3D}/MCU_SoC_Package/SOT23/SOT23-3.stp"
-    (offset (xyz 0 0 0.7))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -180 0 90))
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 0.9))
+    (rotate (xyz 0 0 90))
   )
 )
