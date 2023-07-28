@@ -82,7 +82,7 @@
   (pad "10" smd rect (at -7.6 -0.42) (size 1.1 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c020591d-6969-40a8-886e-fa0ed553b3d4))
   (pad "10" smd rect (at 7.5 -9.675) (size 1.1 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0dfe42a2-dd64-4bea-a2fd-946cd63c7f67))
   (pad "10" smd rect (at 8.475 -0.425) (size 1.1 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9c29978f-f21e-40b6-a197-9ee3bfab2b84))
-  (model "${IOTVISION_3D}/Connector/MicroSDCardSocket/MicroSD_Socket.STEP"
+  (model "${IOTVISION_3D}/Connector/Socket/MicroSDCardSocket/MicroSD_Socket.STEP"
     (offset (xyz 0.3 3.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

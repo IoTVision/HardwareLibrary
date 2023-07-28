@@ -1,4 +1,4 @@
-(footprint "JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" (version 20221018) (generator pcbnew)
+(footprint "Conn-Vert-THT-6P-2.54mm-JST_EH_B6B" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "JST EH series connector, B6B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
   (tags "connector JST EH vertical")

@@ -1,4 +1,4 @@
-(footprint "Conn-Vert-THT-PH-2.0mm-2P" (version 20221018) (generator pcbnew)
+(footprint "Conn-Vert-THT-2P-2.0mm-JST_PH" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at -0.660995 -3.112685) (layer "F.SilkS")

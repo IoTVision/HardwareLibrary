@@ -1,4 +1,4 @@
-(footprint "KF128-5.0-2P" (version 20221018) (generator pcbnew)
+(footprint "Terminal-Vert-THT-2P-5.0mm-KF128" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (tags "KF128-5.0")
   (property "Sheetfile" "Peripheral.kicad_sch")
