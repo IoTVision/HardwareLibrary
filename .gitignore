@@ -3,7 +3,8 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 #file step 
-/3D/
+/3D.*
+3D
 
 # Temporary files
 *.000
