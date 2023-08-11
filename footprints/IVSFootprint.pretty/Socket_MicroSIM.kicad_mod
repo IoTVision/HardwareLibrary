@@ -51,7 +51,7 @@
       85e56af7-f203-4723-a2ec-2881a377c72a
     )
   )
-  (model "${IOTVISION_3D}/Connector/SIMCardHolder/NanoSIM/User Library-NANO SIM-1/User Library-NANO SIM-1.STEP"
+  (model "${IOTVISION_3D}/Connector/Socket/SimcardHolder/SIMCardHolder/NanoSIM/User Library-NANO SIM-1/User Library-NANO SIM-1.STEP"
     (offset (xyz 2.5 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
