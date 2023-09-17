@@ -1,13 +1,13 @@
 (footprint "LoGo_1412_10x8mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.5 1.5) (thickness 0.3)))
-    (tstamp 1f0ec92f-2cd3-4310-a8de-c1232415e518)
+    (tstamp 307bc428-ad9f-4f12-86c0-556cbf7ae94c)
   )
   (fp_text value "LOGO" (at 0.75 0) (layer "F.SilkS") hide
       (effects (font (size 1.5 1.5) (thickness 0.3)))
-    (tstamp f631c51f-cbd8-41e9-9f1b-d2c02b2fea26)
+    (tstamp 84342b6f-b43b-44be-918a-a44ca157149a)
   )
   (fp_poly
     (pts
@@ -135,7 +135,7 @@
       (xy -1.786635 -3.854079)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp d0092654-c64f-489f-a282-c05efb23b627))
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 844a8e8b-6e61-416d-bed4-fa27438283a2))
   (fp_poly
     (pts
       (xy -4.689866 1.268678)
@@ -267,7 +267,7 @@
       (xy -4.703403 1.267221)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 97f6d3dd-523d-4df4-9a85-787a8b16e5ec))
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 07bc5b3e-c370-40ae-8bd5-a867ad9fa760))
   (fp_poly
     (pts
       (xy 0.269923 -3.262122)
@@ -560,7 +560,7 @@
       (xy 0.264538 -3.26249)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 61c1102c-fb99-447c-9c4c-9a90a697f037))
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 1cf321d4-e541-4714-b1bc-6837a401b191))
   (fp_poly
     (pts
       (xy 3.02024 -2.855798)
@@ -885,5 +885,5 @@
       (xy 2.983921 -2.867087)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 67e247ae-15d7-43a7-b97d-039badae7637))
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp e28c86b8-0ae2-46bc-898b-9dc1ab899645))
 )
