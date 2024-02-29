@@ -1,0 +1,220 @@
+(footprint "Conn-Horz-SMD-4P-2.54mm-PinHeader"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x04 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.33 0)
+		(layer "F.SilkS")
+		(uuid "460720ee-fae4-40eb-8479-8ddc4f8889f1")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x04_Male"
+		(at 0 9.95 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6cbf4fc-ac4d-436b-99a3-1f9b23c4ce56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d285f520-ee10-47e3-aeb8-d54e57db5691")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f76763a5-1fc4-45f0-bd1e-3e5a53275a26")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8afb10eb-aa9c-446e-9fdd-4da2da63a398")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.25 -1.415)
+		(end -0.92 -1.415)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3f37ff1-f065-4d01-b1f2-e3e67158d304")
+	)
+	(fp_line
+		(start -2.25 -0.085)
+		(end -2.25 -1.415)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3a3ca49-b6a6-4a81-8ae3-9191cf04df5d")
+	)
+	(fp_line
+		(start -2 1)
+		(end -2 9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "deba0c3c-1312-4133-b251-6bbc78e461a4")
+	)
+	(fp_line
+		(start -2 1)
+		(end 1.95 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b00b83c-e07b-4bee-bfa1-d8d5de5866f8")
+	)
+	(fp_line
+		(start -2 9.25)
+		(end 1.95 9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f676bd77-969f-4f76-9738-ebb31000e58c")
+	)
+	(fp_line
+		(start 1.95 1)
+		(end 1.95 9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00e14e5f-7dc8-4e68-9373-f670cf52e68b")
+	)
+	(fp_line
+		(start -1.8 -1.8)
+		(end -1.8 9.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6714a03a-f17f-43b1-a0b3-49d7c140582a")
+	)
+	(fp_line
+		(start -1.8 9.4)
+		(end 1.8 9.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c018954d-8f41-4fc8-a833-b2b7fdb912c0")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end -1.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50e26fbc-7042-4c6e-8252-ee3f38f122fc")
+	)
+	(fp_line
+		(start 1.8 9.4)
+		(end 1.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c52fd17-455e-4471-96e3-bbeb1359daea")
+	)
+	(fp_poly
+		(pts
+			(xy -2.2 9.4) (xy 2.1 9.4) (xy 2.1 -1.85) (xy -1.05 -1.85) (xy -2.2 -0.65)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4aec70b2-be64-4ccd-8414-de33d568a35e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.81 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb411cb9-aa88-4891-9eda-48c6c3a2094e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0 180)
+		(size 3.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ddd00fe3-4aa2-4072-941b-10e1e71d8adb")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.54 180)
+		(size 3.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "45c05c5f-156c-4538-91d0-b99af6c53b3b")
+	)
+	(pad "3" smd roundrect
+		(at 0 5.08 180)
+		(size 3.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "956eb4c7-3ec2-4ba2-9e61-11f8e62f2adc")
+	)
+	(pad "4" smd roundrect
+		(at 0 7.62 180)
+		(size 3.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1b16986e-9c03-4ecb-a4ce-87a6ad580cf5")
+	)
+)

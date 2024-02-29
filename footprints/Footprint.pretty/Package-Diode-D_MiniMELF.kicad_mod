@@ -1,0 +1,270 @@
+(footprint "Package-Diode-D_MiniMELF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1 -2.425 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "310e9caa-004a-495a-b6ee-66a96d73386c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "15V"
+		(at 0.025 2.475 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4dfbbb70-c130-457b-badd-0d5c3f771337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51898d14-b66d-4b8c-a071-5f43d4fcd806")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b471404d-ce6e-40da-a89e-2ec56b2b0c84")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdc58e71-fc03-4487-afd0-73863c372dc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Field2" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f837f58-6d48-46b1-b4e8-006f5a420cc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.6125 -0.75)
+		(end -0.6125 0.75)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "26415d64-2fac-4481-bf3b-76643b356d88")
+	)
+	(fp_rect
+		(start -2.7375 -1.225)
+		(end 2.7375 1.225)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9a478c7d-3e8f-4ae0-9977-99d068c8924a")
+	)
+	(fp_poly
+		(pts
+			(xy -0.6125 0) (xy 0.7375 -0.75) (xy 0.7375 0.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "26d6fa30-3d51-491b-83ee-7101090ff00e")
+	)
+	(fp_rect
+		(start -2.7375 -1.225)
+		(end 2.7375 1.225)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9ddcbb55-beb7-46fb-bc60-bf0c394d6b0b")
+	)
+	(fp_line
+		(start -1.6125 -0.8)
+		(end 1.6875 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c37a3c3-0a13-4dcd-b9f7-01e89a012450")
+	)
+	(fp_line
+		(start -1.6125 0.8)
+		(end -1.6125 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5d1f23a-f3c2-4220-bd59-20517cd1ab70")
+	)
+	(fp_line
+		(start -0.7125 0)
+		(end -0.3125 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e365ed5-dc33-4f21-8490-4e763cf81276")
+	)
+	(fp_line
+		(start -0.3125 0)
+		(end -0.3125 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3329cf57-1dc5-4f91-9179-1cfcfffc514c")
+	)
+	(fp_line
+		(start -0.3125 0)
+		(end -0.3125 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ffedf9c-07b3-4cf7-86b0-7c1d0fcf6d38")
+	)
+	(fp_line
+		(start -0.3125 0)
+		(end 0.2875 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fc77a9b-6c48-45ae-841d-e4b798d56c3d")
+	)
+	(fp_line
+		(start 0.2875 -0.4)
+		(end 0.2875 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eebd5e22-d8f4-4d61-9460-3a9f29f888a0")
+	)
+	(fp_line
+		(start 0.2875 0)
+		(end 0.7875 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd0e0e85-272e-4979-9f58-4711ef429081")
+	)
+	(fp_line
+		(start 0.2875 0.4)
+		(end -0.3125 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7139a66-bcd4-4626-8962-0ed40414bf77")
+	)
+	(fp_line
+		(start 1.6875 -0.8)
+		(end 1.6875 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6144c02-33da-495f-bcd1-7953d80c7ceb")
+	)
+	(fp_line
+		(start 1.6875 0.8)
+		(end -1.6125 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c937e650-f321-4a81-92bb-8f183874fd42")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9cd5a050-ebf2-41e5-ae0d-fe18462a5e85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.7875 0)
+		(size 1.3 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1923076923)
+		(uuid "122fac67-612b-4962-8702-f1ab72d71c39")
+	)
+	(pad "2" smd roundrect
+		(at -1.7125 0)
+		(size 1.3 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1923076923)
+		(uuid "a72087f6-9c2c-4508-9156-f3f8f0f9628e")
+	)
+	(model "${SPIRITBOI_3D}/Diode/MiniMELF/MiniMelfDiode.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

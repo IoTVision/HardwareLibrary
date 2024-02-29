@@ -1,0 +1,106 @@
+(footprint "Socket_DIL-06-A" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>Dual In Line</b> 0.4\" Lead spacing<p>Source: http://www.fairchildsemi.com/ds/MO/MOC3043-M.pdf")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.25) (layer "F.SilkS")
+      (effects (font (size 0.700906 0.700906) (thickness 0.15)))
+    (tstamp 8232aa19-7151-4634-a7ba-dce2fcd8a4f4)
+  )
+  (fp_text value "Socket_DIL-06-A" (at 0 1) (layer "F.Fab")
+      (effects (font (size 0.500323 0.500323) (thickness 0.15)))
+    (tstamp 7880ae04-6945-4a5c-baf6-2628239148a6)
+  )
+  (fp_line (start -3.81 -0.635) (end -3.81 -3)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 326af77a-7370-4cb8-9098-936999d0f15a))
+  (fp_line (start -3.81 3) (end -3.81 0.635)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 72e51d30-43ac-42aa-b506-743c9d97ae4a))
+  (fp_line (start 3.81 -3) (end -3.81 -3)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp b6f16dbf-4dc4-424b-a84c-2c7740ee5441))
+  (fp_line (start 3.81 3) (end -3.81 3)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp cee7035e-df60-43b4-9556-a1d739252340))
+  (fp_line (start 3.81 3) (end -3.81 3)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp f6a7911b-6aea-448b-b5c3-0e38b7d9485d))
+  (fp_line (start 3.81 3) (end 3.81 -3)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 73fecd2a-4412-4a44-97de-0ba0fbf9aded))
+  (fp_arc (start -3.81 -0.635) (mid -3.175 0) (end -3.81 0.635)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 60440dc2-f8ce-4dbb-970c-6baf1a1b2fa4))
+  (fp_poly
+    (pts
+      (xy -3.17768 1.73047)
+      (xy -1.905 1.73047)
+      (xy -1.905 2.75)
+      (xy -3.17768 2.75)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 7a71c0b0-6e79-482d-853f-db72eb41bed4))
+  (fp_poly
+    (pts
+      (xy -3.1757 -2.5)
+      (xy -1.905 -2.5)
+      (xy -1.905 -1.4847)
+      (xy -3.1757 -1.4847)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 0b7d09f5-a56e-4736-bb7b-65abc5199733))
+  (fp_poly
+    (pts
+      (xy -0.6355 -2.5135)
+      (xy 0.635 -2.5135)
+      (xy 0.635 -1.5)
+      (xy -0.6355 -1.5)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 87eb2a9f-202f-49c2-bad3-03ad982b32b5))
+  (fp_poly
+    (pts
+      (xy -0.635339 1.75)
+      (xy 0.635 1.75)
+      (xy 0.635 2.76824)
+      (xy -0.635339 2.76824)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 1448112f-825b-41df-b22a-77e88a631b77))
+  (fp_poly
+    (pts
+      (xy 1.90544 1.75)
+      (xy 3.175 1.75)
+      (xy 3.175 2.76696)
+      (xy 1.90544 2.76696)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 67dc61c5-79cb-4209-8ba8-b5a27a3bde09))
+  (fp_poly
+    (pts
+      (xy 1.90824 -2.5)
+      (xy 3.175 -2.5)
+      (xy 3.175 -1.4894)
+      (xy 1.90824 -1.4894)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 07ceabae-b1f1-4696-ad63-1decdecf92db))
+  (dimension (type aligned) (layer "Cmts.User") (tstamp 9fdc752a-c8fe-4bbc-a905-679809d47a45)
+    (pts (xy 2.54 -3.75) (xy 2.5 3.75))
+    (height -4.34632)
+    (gr_text "7.5001 mm" (at 5.716274 0.017047 89.69442541) (layer "Cmts.User") (tstamp 9fdc752a-c8fe-4bbc-a905-679809d47a45)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.12) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
+  (pad "1" thru_hole circle (at -2.54 3.75) (size 1.308 1.308) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 3f7c1c82-9a3d-4253-bd8e-70a7abd983fa))
+  (pad "2" thru_hole circle (at 0 3.75) (size 1.308 1.308) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 214720b2-bd30-4dad-9226-29e300dbf21a))
+  (pad "3" thru_hole circle (at 2.5 3.75) (size 1.308 1.308) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 553fcc52-912d-4727-843f-59cf7a0df282))
+  (pad "4" thru_hole circle (at 2.54 -3.75) (size 1.308 1.308) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp ffcbac21-92f1-4127-8d73-af8ef3725ec0))
+  (pad "5" thru_hole circle (at 0 -3.75) (size 1.308 1.308) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 1d2e38d9-727f-42a9-964a-3a43f4c8a16a))
+  (pad "6" thru_hole circle (at -2.5 -3.75) (size 1.308 1.308) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 57f1ff39-0721-4bdb-9497-e7ed46312e62))
+  (model "${SPIRITBOI_3D}/MCU_SoC_Package/MOC3061/Moc3061.step"
+    (offset (xyz 0 0 4.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${SPIRITBOI_3D}/MCU_SoC_Package/MOC3020/DIP6 socket.STEP"
+    (offset (xyz -3.8 0 5.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

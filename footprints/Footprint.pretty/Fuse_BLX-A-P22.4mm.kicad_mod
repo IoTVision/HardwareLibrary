@@ -1,0 +1,199 @@
+(footprint "Fuse_BLX-A-P22.4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6275ea00-3e16-4a69-bb5a-b10a8a970ab6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_BLX-A-P23mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2e846856-48f9-48ef-92ab-6386582e5b10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d6dedb0-cf3d-40e3-be03-c049d4aafee0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "867ea261-0a72-4162-821a-e73e6d356451")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab9af474-a459-4719-b0b6-1a65e286a3fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.2 -5.2)
+		(end -6.2 5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbe6dcbf-ba60-4a56-838a-aea497ecb58f")
+	)
+	(fp_line
+		(start 6.2 -5.2)
+		(end 6.2 5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21e451f8-bf9d-4dd9-a5da-951cd005f186")
+	)
+	(fp_line
+		(start 12.4 -3)
+		(end 12.4 -1.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db67bec1-1377-4b25-b2db-a41c40202c54")
+	)
+	(fp_line
+		(start 12.4 2.8)
+		(end 12.4 1.62)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9ac7e5b-4fd6-4de2-ad04-701fbd8e5271")
+	)
+	(fp_line
+		(start 14 -3)
+		(end 12.4 -3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e789f2af-7099-4868-9b40-1a0373c38faa")
+	)
+	(fp_line
+		(start 14 2.8)
+		(end 12.4 2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "009ebe68-00e1-4ccf-acee-81ee62ca709c")
+	)
+	(fp_rect
+		(start -13.4 -5.2)
+		(end 14 5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c94fca59-502c-459e-a2da-29b24b87a7c2")
+	)
+	(fp_rect
+		(start -6.2 -2.4)
+		(end 6.2 2.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d5cb37b4-875d-4c65-812c-403ce446e2e0")
+	)
+	(fp_rect
+		(start -13.6 -5.4)
+		(end 14.2 5.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d09bcf6f-a768-4118-97cf-ccbee9c9f02f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "720e5bb2-3d29-4a88-b27c-bce25c48b254")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -11.2 0)
+		(size 3.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80287fed-7ea3-433c-83f7-acad8b9435e9")
+	)
+	(pad "2" thru_hole oval
+		(at 11.2 0)
+		(size 3.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3175375-0613-46e1-9587-5a747000dc2e")
+	)
+	(model "${SPIRITBOI_3D}/Fuses/FuseHolderGlass5x20mm/Fuse_holder.stp"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,167 @@
+(footprint "C_0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.46 0.035 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "32305484-d46d-4d06-aba5-ad46320f6a35")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "10uF"
+		(at 0 0.95 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0d9d68a9-e911-46b9-a740-70459a3b7868")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c90bf60-077e-4756-9136-b028b5c41d47")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a89587e-eaee-48c4-bfb5-ffab6aa1c0f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbfac049-3523-4fc2-9522-d6869a544982")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.4508 -0.7)
+		(end 1.4508 0.7)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d640bc0a-b29c-488a-89ff-cf5d7593c371")
+	)
+	(fp_rect
+		(start -1.4508 -0.7)
+		(end 1.4508 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d13062a3-100f-452d-8a63-4c36cd5c6f47")
+	)
+	(fp_line
+		(start -0.8 -0.39)
+		(end 0.8 -0.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1af7953-2b9d-4de9-a386-1192d47672d0")
+	)
+	(fp_line
+		(start -0.8 0.41)
+		(end -0.8 -0.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ce38a96-90e9-45f4-b63f-fd400e800d64")
+	)
+	(fp_line
+		(start 0.8 -0.39)
+		(end 0.8 0.41)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b349746-9a8e-4d69-bf7d-b94654211af0")
+	)
+	(fp_line
+		(start 0.8 0.41)
+		(end -0.8 0.41)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8743758c-89ef-4fcb-90fd-944f77b7017d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "695d93de-fe6f-4805-a280-196bb84a459b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.775 0 180)
+		(size 0.85 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "bdb0856b-9073-4f5e-82ae-f4d70cc8302e")
+	)
+	(pad "2" smd roundrect
+		(at 0.775 0 180)
+		(size 0.85 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "828ccbd3-a86c-480f-a6de-daf3f35fd1f5")
+	)
+	(model "${SPIRITBOI_3D}/Capacitor/Cap_SMD/CAP/csmd-0603_l1-6_w0-81_h0-86.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

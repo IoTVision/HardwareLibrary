@@ -1,0 +1,265 @@
+(footprint "TerminalBlock_bornier-3_P5.08mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3")
+	(tags "terminal block bornier3")
+	(property "Reference" "REF**"
+		(at 12.75 -4.6 0)
+		(layer "F.SilkS")
+		(uuid "11d74a08-bb43-462c-b381-f1507351d23d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Screw_Terminal_01x03"
+		(at 5.08 5.08 0)
+		(layer "F.Fab")
+		(uuid "092d9c69-15f7-47d1-828c-a43a945a9111")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97d811a1-5143-4f18-be69-bb20c84252fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccb6a23c-3dcb-40cc-85de-ae43fa5ddd09")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41f219d5-433a-4528-ae84-168bfa7ece50")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -3.81)
+		(end 12.7 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3cc0f67-744c-46c2-9bf6-e012a631f488")
+	)
+	(fp_line
+		(start -2.54 2.54)
+		(end 12.7 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb0252d2-8c54-43d1-b0f4-600d25b0460c")
+	)
+	(fp_line
+		(start -2.54 3.81)
+		(end -2.54 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4477ce49-e0c2-4b3b-9720-c5d20cf48583")
+	)
+	(fp_line
+		(start -2.54 3.81)
+		(end 12.7 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31342ed1-c849-4a3c-919b-fed908e48d4e")
+	)
+	(fp_line
+		(start 12.7 3.81)
+		(end 12.7 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db889a73-ed5b-44c0-af5b-171d98bf971e")
+	)
+	(fp_line
+		(start -2.72 -4)
+		(end -2.72 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "257217dd-d496-4ba3-9a77-4fb8aac14fab")
+	)
+	(fp_line
+		(start -2.72 -4)
+		(end 12.88 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ade6641b-8223-4fa4-b401-f397d9bb897f")
+	)
+	(fp_line
+		(start 12.88 4)
+		(end -2.72 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ae91b27-22d1-49d2-a872-4bbf2eba647b")
+	)
+	(fp_line
+		(start 12.88 4)
+		(end 12.88 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8360de8a-3f85-4c93-9e5a-855c428b781b")
+	)
+	(fp_line
+		(start -2.47 -3.75)
+		(end 12.63 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13de8aae-9170-4414-bbff-79c63a3924de")
+	)
+	(fp_line
+		(start -2.47 2.55)
+		(end 12.63 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da21a7ac-5db3-45f8-a9d2-0a86363b1213")
+	)
+	(fp_line
+		(start -2.47 3.75)
+		(end -2.47 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "884433f0-276d-44ce-8729-a9aa20d6df39")
+	)
+	(fp_line
+		(start 12.63 -3.75)
+		(end 12.63 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f26b21f2-ad29-4ca6-89ac-b5c6525c7932")
+	)
+	(fp_line
+		(start 12.63 3.75)
+		(end -2.47 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "386492b6-8f21-4863-9970-e14f8502490e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 0 0)
+		(layer "F.Fab")
+		(uuid "0efc218e-710c-4c82-bd0e-69f09de5fc8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.5 4)
+		(drill oval 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bfedd222-5c44-4134-82df-16869eae012c")
+	)
+	(pad "2" thru_hole oval
+		(at 5.08 0)
+		(size 2.5 4)
+		(drill oval 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48f01bb5-89cd-4523-b5b8-bce1c077327a")
+	)
+	(pad "3" thru_hole oval
+		(at 10.16 0)
+		(size 2.5 4)
+		(drill oval 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f257a23-9696-4934-8691-e0e18ab12a17")
+	)
+	(model "${SPIRITBOI_3D}/Connector/KF2EDG/3P.STEP"
+		(hide yes)
+		(offset
+			(xyz 0.08 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "${SPIRITBOI_3D}/Connector/TerminalBlock/Terminal Screw 3P Blue/Terminal_3pin.STEP"
+		(offset
+			(xyz 4.5 2.5 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
